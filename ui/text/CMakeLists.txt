@@ -1,0 +1,6 @@
+add_library(gsdl_text STATIC editor.cpp rasterizer.cpp)
+target_include_directories(gsdl_text PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/../..)
+target_compile_features(gsdl_text PUBLIC cxx_std_20)
+target_compile_definitions(gsdl_text PRIVATE UNICODE _UNICODE WIN32_LEAN_AND_MEAN NOMINMAX)
+target_compile_options(gsdl_text PRIVATE /W4 /EHsc /utf-8 /permissive-)
+target_link_libraries(gsdl_text PUBLIC dwrite imm32 user32)

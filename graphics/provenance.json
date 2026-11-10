@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-04",
+  "selected_files": [
+    {
+      "source": "core/native_ui/skia_canvas.hpp",
+      "source_sha256": "ecb8eb4d900d5b39a32e7814d9653d129b543460675075938fb0cf0c1ade9e42",
+      "source_bytes": 3268
+    },
+    {
+      "source": "core/native_ui/skia_canvas.cpp",
+      "source_sha256": "5938296622c71b601692fe239a6fc06a58b589c5ff14781034187d56ffe99bc3",
+      "source_bytes": 14704
+    },
+    {
+      "source": "core/presentation/include/postshot/presentation/win32_presenter.hpp",
+      "source_sha256": "7caf14279741ffe226c9fcc97e4dcdf50ef8a9988d606b1b5f86c947adc4e1f3",
+      "source_bytes": 3641
+    },
+    {
+      "source": "core/presentation/src/frame_bytes.hpp",
+      "source_sha256": "09b1c45158b9ab60cc912e07ab6cdab9e246cbdb7236056b49b543577f708cb3",
+      "source_bytes": 2024
+    },
+    {
+      "source": "core/presentation/src/win32_presenter.cpp",
+      "source_sha256": "b2d55e14145b7b663e018148e11ae8f5c09c483ba0e762311ea02e5bc6c9f5c2",
+      "source_bytes": 32986
+    }
+  ],
+  "changes": [
+    "Namespace changed to gsdl::graphics",
+    "Removed Skia simple-text and original locked font dependency",
+    "Added mutable physical RGBA access for DirectWrite composition",
+    "Removed Gaussian Image and encode_reference declaration",
+    "Presenter owned by construction/render thread; UI HWND permitted with explicit lifetime contract",
+    "No app.cpp, original resources or root CMake copied"
+  ],
+  "source_project": "2610_postshot native UI reconstruction prototype",
+  "path_base": "reconstruction/; source paths are relative to the original project, not runtime dependencies"
+}

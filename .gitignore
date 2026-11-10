@@ -1,0 +1,39 @@
+/build/
+/artifacts/
+/third_party/installed/
+/third_party/bin/
+/graphics/build/
+/infra/storage/build/
+/.vs/
+/CMakeUserPresets.json
+*.user
+*.pdb
+
+# Alternative build directories and native intermediates
+build/
+/build-*/
+/cmake-build-*/
+/out/
+CMakeFiles/
+CMakeCache.txt
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.ilk
+*.exp
+
+# Local downloads, task workspaces, plans, and incomplete files
+/downloads/
+/local-data/
+/test-results/
+/tasks.json
+*.3dgsdl.json
+.3dgsdl-receipts/
+*.part
+
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example

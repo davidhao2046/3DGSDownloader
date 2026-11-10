@@ -1,0 +1,3 @@
+# Preserve the exact upstream bytes recorded in the third-party source locks.
+/third_party/skia/** -text
+/third_party/vulkan/** -text

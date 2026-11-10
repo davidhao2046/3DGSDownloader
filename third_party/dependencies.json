@@ -1,0 +1,60 @@
+{
+  "purpose": "Hash-locked upstream native runtime and source dependencies",
+  "skia": {
+    "name": "libSkiaSharp.dll",
+    "source_origin": "Official SkiaSharp.NativeAssets.Win32 2.88.8 NuGet package, runtimes/win-x64/native/libSkiaSharp.dll",
+    "sha256": "2ca940b7c4621ecd27d2f07c5f46fafa0375f493692cd4e6e1e66c07fbc8109a",
+    "bytes": 9414184,
+    "machine": "AMD64 0x8664",
+    "file_version_resource": "absent",
+    "native_version_exports": {
+      "string": "88.1",
+      "milestone": 88,
+      "increment": 1
+    },
+    "normal_imports": [
+      "ole32.dll",
+      "FONTSUB.dll",
+      "USER32.dll",
+      "KERNEL32.dll"
+    ],
+    "delay_imports": [],
+    "additional_dll_name_string": "opengl32.dll; this raster backend does not request GL context creation",
+    "managed_code_loaded": false,
+    "rebuild_from_source_verified": false,
+    "legacy_development_sha256": "b0e70fafe91d2118c45603b9cff700027c078fafcc621d08d55fb2f30da03658",
+    "package": {
+      "id": "SkiaSharp.NativeAssets.Win32",
+      "version": "2.88.8",
+      "url": "https://api.nuget.org/v3-flatcontainer/skiasharp.nativeassets.win32/2.88.8/skiasharp.nativeassets.win32.2.88.8.nupkg",
+      "sha256": "6fc55bf78acd8f03ca4890d0819d17bf675657b80c5459791b04cafd08993cf3",
+      "bytes": 10918061,
+      "entry": "runtimes/win-x64/native/libSkiaSharp.dll"
+    },
+    "notices": [
+      {
+        "path": "third_party/skia/LICENSE-SkiaSharp.txt",
+        "package_entry": "LICENSE.txt",
+        "sha256": "89101e35a8c66fd4d6dffc1763259161d35cb564c169714ec227a768c89f2938",
+        "bytes": 1129
+      },
+      {
+        "path": "third_party/skia/THIRD-PARTY-NOTICES.txt",
+        "package_entry": "THIRD-PARTY-NOTICES.txt",
+        "sha256": "21504c46c4c58aa64c1055bd2dcbc5f9a136b4b8c412ed3cc6740e22c5b127f5",
+        "bytes": 139775
+      }
+    ]
+  },
+  "source_revision": {
+    "release": "https://github.com/mono/SkiaSharp/releases/tag/v2.88.8",
+    "binding_commit": "7af1d0840a381c0ce7ef2877454a88dbb2949686",
+    "gitlink_evidence": "https://github.com/mono/SkiaSharp/tree/7af1d0840a381c0ce7ef2877454a88dbb2949686/externals",
+    "skia_repository": "https://github.com/mono/skia",
+    "skia_commit": "30b08b827c7c8ab154818f4dbe26a984a9a371da",
+    "c_header_lock": "third_party/skia/source-lock.json",
+    "license": "third_party/skia/LICENSE"
+  },
+  "fonts": "No original fonts copied; native text shaping uses DirectWrite system collection",
+  "reproducible_native_dll_build_verified": false
+}

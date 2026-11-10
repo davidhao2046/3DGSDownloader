@@ -1,0 +1,61 @@
+{
+  "repo": "https://github.com/mono/skia",
+  "commit": "30b08b827c7c8ab154818f4dbe26a984a9a371da",
+  "source": "SkiaSharp v2.88.8 gitlink externals/skia",
+  "files": [
+    {
+      "path": "include/c/sk_types.h",
+      "source_url": "https://raw.githubusercontent.com/mono/skia/30b08b827c7c8ab154818f4dbe26a984a9a371da/include/c/sk_types.h",
+      "bytes": 29684,
+      "sha256": "4c1e1bfdef9be39ce47cb3d89ac17ebb9f471322720288ffc9f382993737a630"
+    },
+    {
+      "path": "include/c/sk_surface.h",
+      "source_url": "https://raw.githubusercontent.com/mono/skia/30b08b827c7c8ab154818f4dbe26a984a9a371da/include/c/sk_surface.h",
+      "bytes": 3292,
+      "sha256": "76a6602e052b7fe56ec74f6ceb7ee29430ae3eb1430a1b0cf9d0e80f55817996"
+    },
+    {
+      "path": "include/c/sk_canvas.h",
+      "source_url": "https://raw.githubusercontent.com/mono/skia/30b08b827c7c8ab154818f4dbe26a984a9a371da/include/c/sk_canvas.h",
+      "bytes": 6730,
+      "sha256": "9d7f8017951319a7367cc26accd6417c3ac3f5146abf2bd97cba10b9cc2b01d6"
+    },
+    {
+      "path": "include/c/sk_paint.h",
+      "source_url": "https://raw.githubusercontent.com/mono/skia/30b08b827c7c8ab154818f4dbe26a984a9a371da/include/c/sk_paint.h",
+      "bytes": 2857,
+      "sha256": "bcc7acc8fc30d8e6b17c572a08ebd1ce06b15e26be0f28ff3d69f8c197838097"
+    },
+    {
+      "path": "include/c/sk_path.h",
+      "source_url": "https://raw.githubusercontent.com/mono/skia/30b08b827c7c8ab154818f4dbe26a984a9a371da/include/c/sk_path.h",
+      "bytes": 7620,
+      "sha256": "14668d631486f6c6103b2558ea2849a48f2c181c0337a7747bf75d4b9ae0e88b"
+    },
+    {
+      "path": "include/c/sk_font.h",
+      "source_url": "https://raw.githubusercontent.com/mono/skia/30b08b827c7c8ab154818f4dbe26a984a9a371da/include/c/sk_font.h",
+      "bytes": 4308,
+      "sha256": "c00c68028a6b4eb2dfa4653f6443fa59643da807182f5e092df8640ce9ee055b"
+    },
+    {
+      "path": "include/c/sk_typeface.h",
+      "source_url": "https://raw.githubusercontent.com/mono/skia/30b08b827c7c8ab154818f4dbe26a984a9a371da/include/c/sk_typeface.h",
+      "bytes": 4694,
+      "sha256": "1b9798ec8aafff429d20e507f7ef299c6d0d8b0bd23c939afcf2f01775d3e547"
+    },
+    {
+      "path": "include/c/sk_data.h",
+      "source_url": "https://raw.githubusercontent.com/mono/skia/30b08b827c7c8ab154818f4dbe26a984a9a371da/include/c/sk_data.h",
+      "bytes": 1171,
+      "sha256": "61dcb12347ffca2b625147787eeb1159aa9fdc1e6b1674a965d24319aac999c6"
+    },
+    {
+      "path": "LICENSE",
+      "source_url": "https://raw.githubusercontent.com/mono/skia/30b08b827c7c8ab154818f4dbe26a984a9a371da/LICENSE",
+      "bytes": 1507,
+      "sha256": "5f787c1dee3c56547f09ccc2906ab5f5293c4d8dd6c8654e573216c38e908dbd"
+    }
+  ]
+}
